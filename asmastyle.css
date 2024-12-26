@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+    color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Ajout d'une position relative au corps */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url('biom4.jpg') center center no-repeat;
+    background-size: cover;
+    opacity: 0.3; /* Réglez l'opacité selon vos préférences */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(201, 5, 5, 0.5);
+}
+
+
+        button {
+            display: flex;
+            margin: 20px auto;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            background-color: #4022ca;
+            color:white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #29b948;
+        }
+
+
+
